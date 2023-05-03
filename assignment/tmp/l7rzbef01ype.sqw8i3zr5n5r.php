@@ -85,7 +85,7 @@
             </div>
         </div>
     </nav>
-		<include href="{{ @content }}" />
+		<?php echo $this->render($content,NULL,get_defined_vars(),0); ?>
 	<nav class="navbar navbar-expand-sm footer" id="footerBackground">
 		<div class="container-fluid">
 			<div class="copyright">
