@@ -7,7 +7,8 @@ var uploader = WebUploader.create({
         title: 'Images',
         extensions: 'gif,jpg,jpeg,bmp,png',
         mimeTypes: 'image/*'
-    }
+    },
+    compress:true,
 });
 uploader.on( 'uploadError', function( file ) {
   alert("Upload failed!");
