@@ -1,5 +1,7 @@
 function changePro(category){
-  
+    if(category == 'Gallery'){
+        getGallery();
+    }
     console.log(category)
     $(".hide").hide();
     $('body').animate({scrollTop:'0'},500);

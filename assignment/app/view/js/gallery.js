@@ -62,7 +62,7 @@ function getGallery(){
         }
     })
 }
-getGallery();
+
 deleteId = 0;
 function deleteGallery(id){
     deleteId = id;
